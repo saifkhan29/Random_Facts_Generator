@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #ffb783, #ff9f86, #ff849d, #ff70c6, #ff6ff9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+button{
+    border: none;
+    padding: 12px 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 30px 0 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+img{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+h1{
+    margin: 0px 0 20px 0;
+    word-spacing: 8px;
+    font-weight: 600;
+    font-size: 45px;
+    background: -webkit-linear-gradient(#eee, #9DFFF9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+
+.container{
+    background-color: #fff;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+} 
+
+.rocket{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+}
+
+.robot{
+    position: absolute;
+    height: 220px;
+    width: 240px;
+    left: 8%;
+    bottom: 2%;
+}
+
+.flight{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 2%;
+    top: 1%;
+}
+
+.earth{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    right: 10%;
+    bottom: 8%;
+}
